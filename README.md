@@ -1,24 +1,25 @@
-Star Wars Quiz
-This project is a fun and interactive quiz about the Star Wars universe. It is built using HTML, CSS, and JavaScript.
+ Quiz Star Wars
+Ce projet est un quiz amusant et interactif sur l'univers Star Wars. Il est construit à l'aide de HTML, CSS et JavaScript.
 
-Features
-5 questions about the Star Wars movies
-A scoring system that keeps track of the number of correct answers
-A final message displaying the score and a quote from the Star Wars franchise
-How to use
-Clone or download the repository
-Open the index.html file in a web browser
-Read the questions and select the answer you believe is correct
-Click the "Submit" button to move on to the next question
-Once all questions have been answered, the final score and quote will be displayed
-Preview
-Preview of the Star Wars Quiz
+Fonctionnalités:
+5 questions sur les films Star Wars
+Un système de notation qui suit le nombre de bonnes réponses
+Un message final affichant le score et une citation de la franchise Star Wars
+Comment l'utiliser
+Cloner ou télécharger le référentiel
+Ouvrez le fichier index.html dans un navigateur web
+Lisez les questions et sélectionnez la réponse que vous croyez correcte
+Cliquez sur le bouton "Soumettre" pour passer à la question suivante
+Une fois que toutes les questions ont été répondues, le score final et la citation seront affichés
+Aperçu
+Aperçu du Quiz Star Wars
 
-Contribute
-If you want to improve the project, you can submit a pull request and I will be happy to review and merge it.
+Contribuer
+Si vous souhaitez améliorer le projet, vous pouvez soumettre une demande de tirage et je serai 
+heureux de la examiner et de la fusionner.
 
-License
-This project is licensed under the MIT License. Feel free to use and modify the code for your own projects.
+Licence
+Ce projet est sous licence MIT. N'hésitez pas à utiliser et à modifier le code pour vos propres projets.
 
 Conclusion
-Hope you enjoy it and have fun testing your knowledge about Star Wars! Don't hesitate to contact me if you have any question or feedback.
+J'espère que vous l'apprécierez et que vous vous amuserez à tester vos connaissances sur Star Wars ! N'hésitez pas à me contacter si vous avez des questions ou des commentaires.
