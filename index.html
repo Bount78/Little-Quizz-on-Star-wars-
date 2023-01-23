@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=$, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Arimo:ital,wght@0,400;0,600;0,700;1,400&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Quizz v2 Projet</title>
+</head>
+
+<body>
+    <div id = "titre_bloc">
+        <h1>Test de Quizz Star Wars</h1>
+    </div>
+    <div class="container-global">
+        <form class="form-quizz">
+            <div class="question-block">
+                <h4>Où Obi-Wan a-t-il emmené Luke après sa naissance ?</h4>
+                <div>
+                    <input type="radio" name="q1" id="Geonosis" value="a" checked>
+                    <label for="Geonosis">Geonosis</label>
+                </div>
+                <div>
+                    <input type="radio" name="q1" id="Tatooine" value="b" >
+                    <label for="Tatooine">Tatooine</label>
+                </div>
+                <div>
+                    <input type="radio" name="q1" id="Sakiya" value="c">
+                    <label for="Sakiya">Sakiya</label>
+                </div>
+            </div>
+            <div class="question-block">
+                <h4>Qui est la petite-fille de Palpatine ?</h4>
+                <div>
+                    <input type="radio" name="q2" id="Rey" value="a" checked>
+                    <label for="Rey">Rey</label>
+                </div>
+                <div>
+                    <input type="radio" name="q2" id="Leia" value="b">
+                    <label for="Leia">Leia Skywalker</label>
+                </div>
+                <div>
+                    <input type="radio" name="q2" id="Han Solo" value="c">
+                    <label for="Han Solo">Han Solo</label>
+                </div>
+            </div>
+            <div class="question-block">
+                <h4>En quelle année le premier <em>Guerres des étoiles</em> le film sort ?</h4>
+                <div>
+                    <input type="radio" name="q3" id="1945" value="a" checked>
+                    <label for="1945">1945</label>
+                </div>
+                <div>
+                    <input type="radio" name="q3" id="1986" value="b">
+                    <label for="1986">1986</label>
+                </div>
+                <div>
+                    <input type="radio" name="q3" id="1977" value="c">
+                    <label for="1977">1977</label>
+                </div>
+            </div>
+            <div class="question-block">
+                <h4>Qui sont les parents de Kylo Ren ?</h4>
+                <div>
+                    <input type="radio" name="q4" id="Han" value="a" checked>
+                    <label for="Han">Han Solo et la princesse Leia</label>
+                </div>
+                <div>
+                    <input type="radio" name="q4" id="Yoda" value="b">
+                    <label for="Yoda">Yoda et Mace Windu</label>
+                </div>
+                <div>
+                    <input type="radio" name="q4" id="Marine" value="c">
+                    <label for="Marine">Marine Le Pen et François Hollande</label>
+                </div>
+            </div>
+            <div class="question-block">
+                <h4>Quel est le nom du vaisseau de Han Solo ?</h4>
+                <div>
+                    <input type="radio" name="q5" id="Faucon" value="a" checked>
+                    <label for="Faucon">Le Faucon Millenium.</label>
+                </div>
+                <div>
+                    <input type="radio" name="q5" id="royal" value="b">
+                    <label for="royal">La royal Air Force</label>
+                </div>
+                <div>
+                    <input type="radio" name="q5" id="empire" value="c">
+                    <label for="empire">L'empire</label>
+                </div>
+            </div>
+            <button type="submit">Valide tes choix !</button>
+        </form>
+        <div class="resultat">
+            <h2>Clique sur Valider pour voir tes résultats !</h2>
+            <p class="aide"></p>
+            <p class="note"></p>
+        </div>
+    </div>
+    <script src="app.js"></script>
+</body>
+
+</html>
